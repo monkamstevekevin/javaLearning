@@ -1,4 +1,8 @@
 package generics;
 
-public class User {
+public class User implements  Comparable , Cloneable {
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

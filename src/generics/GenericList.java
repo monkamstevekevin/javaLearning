@@ -1,6 +1,6 @@
 package generics;
 
-public class GenericList<T>{
+public class GenericList<T extends Comparable & Cloneable>{
      private T[] elements   = (T[]) new Object[10];;
      private int size;
 
@@ -11,5 +11,7 @@ public class GenericList<T>{
      public T get(int index) {
          return elements[index];
      }
+      // we can add some constraints to our Generics classes
+
 
 }
