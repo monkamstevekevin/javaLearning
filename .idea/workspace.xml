@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="comparable interface with generic">
+    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="understanding of generic methods and also multiple parameters">
+      <change afterPath="$PROJECT_DIR$/src/generics/Instructor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/generics/KeyValuePaire.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/generics/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730425884666</updated>
-      <workItem from="1730425885966" duration="12446000" />
+      <workItem from="1730425885966" duration="13621000" />
     </task>
     <task id="LOCAL-00001" summary="java generic">
       <option name="closed" value="true" />
@@ -107,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730497602945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="understanding of generic methods and also multiple parameters">
+      <option name="closed" value="true" />
+      <created>1730502339921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730502339921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +136,7 @@
     <MESSAGE value="making a generic list class to handle all the generic list i want to build" />
     <MESSAGE value="adding some constraint to generics classes" />
     <MESSAGE value="comparable interface with generic" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparable interface with generic" />
+    <MESSAGE value="understanding of generic methods and also multiple parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="understanding of generic methods and also multiple parameters" />
   </component>
 </project>
