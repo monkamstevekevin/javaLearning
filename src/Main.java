@@ -12,4 +12,6 @@ public class Main {
   int number =  list.get(2);
 
     }
+    // all primitive type have  their corresponding reference type
+    // this is called boxing
 }

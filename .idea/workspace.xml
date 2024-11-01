@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="java generic">
-      <change afterPath="$PROJECT_DIR$/src/generics/GenericList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="making a generic list class to handle all the generic list i want to build">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730425884666</updated>
-      <workItem from="1730425885966" duration="7224000" />
+      <workItem from="1730425885966" duration="7585000" />
     </task>
     <task id="LOCAL-00001" summary="java generic">
       <option name="closed" value="true" />
@@ -74,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730495865445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="making a generic list class to handle all the generic list i want to build">
+      <option name="closed" value="true" />
+      <created>1730496746745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730496746745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java generic" />
-    <option name="LAST_COMMIT_MESSAGE" value="java generic" />
+    <MESSAGE value="making a generic list class to handle all the generic list i want to build" />
+    <option name="LAST_COMMIT_MESSAGE" value="making a generic list class to handle all the generic list i want to build" />
   </component>
 </project>
