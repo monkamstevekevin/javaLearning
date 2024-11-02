@@ -2,14 +2,13 @@ package lambdas;
 
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 public class LambdasDemo {
     public  static  void show(){
-List <String> list =  List.of("a","b","c");
-        Supplier<Double> getRandom = () -> Math.random();
-        var random = getRandom.get();
-        System.out.println("Random Number: " + random);
+        Function<String , Integer> map = (s) -> s.length();
+        System.out.println(map.apply("Hello"));
 
 
     }
@@ -26,5 +25,8 @@ List <String> list =  List.of("a","b","c");
  The `show` method demonstrates how to use a lambda expression with the `forEach` method of the `List` interface. It takes a lambda expression that accepts an Integer as an argument and prints it.
   it's a consumer interface
   Supplier interface is used to get a random number
+  Function interface is used to transform a given input into a desired output
+  BiFunction interface is used to transform two inputs into a single output.
+  Predicate interface is used to check whether a given input matches a certain condition.
 
  */

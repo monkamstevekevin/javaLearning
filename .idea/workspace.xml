@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="learning about consumers in java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="learning about suppliers in java">
       <change beforePath="$PROJECT_DIR$/src/lambdas/LambdasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/LambdasDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730425884666</updated>
-      <workItem from="1730425885966" duration="26777000" />
+      <workItem from="1730425885966" duration="27171000" />
     </task>
     <task id="LOCAL-00001" summary="java generic">
       <option name="closed" value="true" />
@@ -158,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730589155328</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="learning about suppliers in java">
+      <option name="closed" value="true" />
+      <created>1730590455294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730590455294</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +192,7 @@
     <MESSAGE value="// understanding of iterator interface" />
     <MESSAGE value="// understanding comparable and comparator interface" />
     <MESSAGE value="learning about consumers in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning about consumers in java" />
+    <MESSAGE value="learning about suppliers in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning about suppliers in java" />
   </component>
 </project>
