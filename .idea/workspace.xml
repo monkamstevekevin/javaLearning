@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="// understanding of iterator interface">
-      <change afterPath="$PROJECT_DIR$/src/collections/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/EmailComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/collectionDemo.java" afterDir="false" />
+    <list default="true" id="2a042ffa-14c7-4646-a30e-9898ca5b17cc" name="Changes" comment="// understanding comparable and comparator interface">
+      <change afterPath="$PROJECT_DIR$/src/collections/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/SetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/LambdasDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -20,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +34,20 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "monkamstevekevin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f27ced3d-9a43-46ec-be77-1ae4dcb85948" />
+        <option name="url" value="https://github.com/monkamstevekevin/javaLearning.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -73,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730425884666</updated>
-      <workItem from="1730425885966" duration="19230000" />
+      <workItem from="1730425885966" duration="25298000" />
     </task>
     <task id="LOCAL-00001" summary="java generic">
       <option name="closed" value="true" />
@@ -131,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730506784629</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="// understanding comparable and comparator interface">
+      <option name="closed" value="true" />
+      <created>1730511562287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730511562287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +180,7 @@
     <MESSAGE value="understanding of generic methods and also multiple parameters" />
     <MESSAGE value="// understanding of wildcard&#10;        // we use it to build generic classes inheritance to cast" />
     <MESSAGE value="// understanding of iterator interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="// understanding of iterator interface" />
+    <MESSAGE value="// understanding comparable and comparator interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="// understanding comparable and comparator interface" />
   </component>
 </project>
