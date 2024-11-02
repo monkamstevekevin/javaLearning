@@ -5,11 +5,14 @@ import generics.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-      User user  =  new Instructor(17);
-       Utils.printUser(user);
-        // understanding of wildcard
-        // we use it to build generic classes inheritance to cast
-
+   var list  = new GenericList<String> ();
+   list.add("John");
+   list.add("Jane");
+   list.add("Jack");
+   list.add("Jill");
+ for (var item: list){
+     System.out.println(item);
 
 }
+    }
 }
