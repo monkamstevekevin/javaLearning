@@ -1,11 +1,16 @@
 package lambdas;
 
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class LambdasDemo {
     public  static  void show(){
-List<Integer> list  = List.of(1, 2, 3, 4);
- list.forEach(System.out::println);
+List <String> list =  List.of("a","b","c");
+        Supplier<Double> getRandom = () -> Math.random();
+        var random = getRandom.get();
+        System.out.println("Random Number: " + random);
+
 
     }
     public static  void  greet( Printer printer){
@@ -20,5 +25,6 @@ List<Integer> list  = List.of(1, 2, 3, 4);
  Finally, we use the `greet` method and pass a lambda expression as an argument. This lambda expression uses the `print` method of the `Printer` class to print the greeting.
  The `show` method demonstrates how to use a lambda expression with the `forEach` method of the `List` interface. It takes a lambda expression that accepts an Integer as an argument and prints it.
   it's a consumer interface
+  Supplier interface is used to get a random number
 
  */
