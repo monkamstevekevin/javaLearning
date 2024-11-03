@@ -7,8 +7,11 @@ import java.util.function.Supplier;
 
 public class LambdasDemo {
     public  static  void show(){
-        Function<String , Integer> map = (s) -> s.length();
-        System.out.println(map.apply("Hello"));
+     Function < String , String> replaceColons = (s) -> s.replace(":","=");
+     Function <String , String> addBraces = (s) -> "{ " + s + " }";
+    var result =  replaceColons.andThen(addBraces).apply("key:value");
+        System.out.println(result);
+
 
 
     }
